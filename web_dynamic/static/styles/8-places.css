@@ -99,3 +99,23 @@
 .user {
   margin-bottom: 1.5%;
 }
+.reviews {
+	margin-top: 40px;
+}
+.reviews .review-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #ddd;
+}
+.review-title h2 {
+	font-size: 16px;
+}
+.review-title span {
+	font-weight: 600;
+	font-size: 18px;
+	color: red;
+}
+.review-title span:hover {
+	text-decoration: underline;
+}
